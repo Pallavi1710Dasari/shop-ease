@@ -17,14 +17,12 @@ function App() {
    <QueryClientProvider client={queryClient}> 
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/products" element={<ProductsPage />} />
           <Route path="/products/:productId" element={<ProductDetailsPage />} />
           <Route path="/cart" element={<CartPage/>}/>
         </Routes>
-      </BrowserRouter>
       </PersistGate>
     </Provider>
    </QueryClientProvider> 
