@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Website
+# 🛒 Shop-Ease App
 
 Shop Ease built with [ React,Tailwind CSS].
 
