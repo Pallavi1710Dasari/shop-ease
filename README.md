@@ -54,6 +54,6 @@ Shop Ease built with [ React,Tailwind CSS].
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/shop-ease.git
+git clone https://github.com/Pallavi1710Dasari/shop-ease.git
 cd shop-ease
 npm install
