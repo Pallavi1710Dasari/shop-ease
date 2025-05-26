@@ -1,12 +1,59 @@
-# React + Vite
+# 🛒 E-Commerce Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Shop Ease built with [ React,Tailwind CSS].
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+1. Home Page
+- Hero banner (carousel)
+- Featured categories (grid)
+- "Trending Products" section (uses shared product card component)
+  
+2. Product Listing Page (PLP)
+- Filter by category, brand, price range, rating
+- Sorting based on Relevance, Price (Low to High), Newest
+- Infinite Scroll
+- Search bar (client-side)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+3. Product Detail Page (PDP)
+- Image carousel
+- Quantity selector
+- Add to cart button
+- Wishlist button
+- Similar products carousel
+  
+4. Cart Page
+- Product summary, quantity control, remove button
+- Applied promo code (fake logic)
+- Price breakdown (MRP, discount, tax, total)
+- Mobile sticky checkout bar
+
+5. Checkout Modal
+- Dummy form (Name, Email, Address, etc.)
+- On submit, showing success message
+  
+
+## 📷 Screenshots
+
+![image](https://github.com/user-attachments/assets/1e2ae48b-bc58-4281-aaa6-14b9f941351a)
+
+
+## 🛠️ Tech Stack
+
+**Frontend:**
+- React.js
+- Redux 
+- Tailwind CSS
+
+
+## ⚙️ Getting Started
+- npm run dev
+
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/shop-ease.git
+cd shop-ease
+npm install
