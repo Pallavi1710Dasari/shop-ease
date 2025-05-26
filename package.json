@@ -1,8 +1,9 @@
 {
-  "name": "my-ecommerce-site",
+  "name": "shop-ease",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Pallavi1710Dasari.github.io/shop-ease/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
