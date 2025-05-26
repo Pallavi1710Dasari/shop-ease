@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="w-full max-w-screen-xl mx-auto mt-8 px-4 sm:px-6 lg:px-8">
+      <div className="w-full max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
          <Banner/>
          <Categories/>
          <Brands/>
